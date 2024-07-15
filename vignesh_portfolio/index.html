@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vigneshwaran A - Developer</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body oncontextmenu="return false">
+    <!-- header start  -->
+    <header class="header">
+      <!-- only for responsive -->
+      <nav class="res_mode">
+        <ul class="res_mode_ul">
+          <li style="font-size: 24px">Vigneshwaran A</li>
+          <li class="menu_bt" onclick="showmenu()">
+            <i
+              class="fa-sharp fa-solid fa-bars fa-2xl"
+              style="color: #ffffff"
+            ></i>
+            <i
+              class="fa-solid fa-xmark fa-2xl"
+              id="x_mark"
+              style="color: #ffffff"
+            ></i>
+          </li>
+        </ul>
+      </nav>
+      <!-- only for responsive -->
+
+      <nav class="nor_mode">
+        <ul class="navul" onclick="change()">
+          <li class="lists">
+            <a href=""
+              ><i class="fa-solid fa-sun fa-lg" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-moon fa-lg" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li class="lists" id="homee">
+            <a href="#Home">Home</a>
+          </li>
+          <li class="lists" id="about"><a href="#about">About me</a></li>
+          <li class="lists" id="skill">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="lists" id="project"><a href="#projects">Projects</a></li>
+          <li class="lists" id="contactt"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header end  -->
+
+    <!-- main content start -->
+    <main>
+      <section class="quotes">
+        <marquee behavior="scroll" direction="Left"
+          >ஒருமைக்கண் தான்கற்ற கல்வி ஒருவற்கு எழுமையும் ஏமாப் புடைத்து - 398
+          கல்வி
+        </marquee>
+      </section>
+      <!-- Home Content start  -->
+      <div id="Home">
+        <!-- Home Left Content  --Name -->
+        <div>
+          <h1 class="name">Vigneshwaran A</h1>
+          <h2><span id="type"></span> Developer</h2>
+        </div>
+        <!-- Home Right Content --Photo -->
+        <div>
+          <img src="Media/photo2.jpg" alt="" class="developer" />
+        </div>
+      </div>
+      <!-- 1st div tag for About me  -->
+      <div class="about" id="aboutt">
+        <h2><span class="heading"> ABOUT ME </span></h2>
+        <div class="ab_me">
+          <p>
+            Hello! I’m Vigneshwaran A, a software developer with a B.Sc in
+            Computer Science. I’m passionate about creating unique designs and
+            working with the latest technologies. My positive mindset keeps me
+            motivated to achieve my goals, and I never give up on anything.
+            Let’s connect and explore the exciting world of tech together! 🌟
+          </p>
+        </div>
+      </div>
+
+      <!-- 2nd div tag for Skills  -->
+      <div class="skills" id="skills">
+        <h2><span class="heading"> SKILLS </span></h2>
+        <!-- inside div tags -->
+        <div class="skills_all">
+          <div class="skill_row1">
+            <section class="skill_individual">
+              <div class="skill_name">
+                <span>HTML</span>
+                <span
+                  ><img
+                    src="Media/html-5.png"
+                    alt="skill_icon"
+                    title="HTML"
+                    class="skill_icon"
+                /></span>
+                <span>80%</span>
+              </div>
+              <div class="skill_p_box">
+                <div class="percentage_1"></div>
+              </div>
+            </section>
+            <section class="skill_individual">
+              <div class="skill_name">
+                <span>CSS</span>
+                <span
+                  ><img
+                    src="Media/css-3.png"
+                    alt="skill_icon"
+                    title="HTML"
+                    class="skill_icon"
+                /></span>
+                <span>75%</span>
+              </div>
+              <div class="skill_p_box">
+                <div class="percentage_2"></div>
+              </div>
+            </section>
+          </div>
+          <div class="skill_row2">
+            <section class="skill_individual">
+              <div class="skill_name">
+                <span>JavaScript</span>
+                <span
+                  ><img
+                    src="Media/js.png"
+                    alt="skill_icon"
+                    title="HTML"
+                    class="skill_icon"
+                /></span>
+                <span>80%</span>
+              </div>
+              <div class="skill_p_box">
+                <div class="percentage_3"></div>
+              </div>
+            </section>
+            <section class="skill_individual">
+              <div class="skill_name">
+                <span>MySql</span>
+                <span
+                  ><img
+                    src="Media/mysql.png"
+                    alt="skill_icon"
+                    title="HTML"
+                    class="skill_icon"
+                /></span>
+                <span>80%</span>
+              </div>
+              <div class="skill_p_box">
+                <div class="percentage_4"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3rd div tag for Projects -->
+      <div class="projects" id="projects">
+        <h2><span class="heading">PROJECTS </span></h2>
+        <!-- inside div tags -->
+        <div class="p_content">
+          <!-- projects rows  -->
+          <div class="pro_row1">
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Personal_Portfolio_Website.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images"
+                >Personal Portfolio Website</span
+              >
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Responsive_Landing_Page.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Responsive Landing Page</span>
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Interactive_Photo_Gallery_01.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Interactive Photo Gallery</span>
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Product_Pricing_Page.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Product Pricing Page</span>
+            </section>
+          </div>
+
+          <div class="pro_row2">
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/To_Do_List_Application.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">To-Do List Application</span>
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Animated_CSS_Buttons.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Animated CSS Buttons</span>
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Newsletter_Signup_Form.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Newsletter Signup Form</span>
+            </section>
+            <section class="pros">
+              <span
+                ><img
+                  src="Media/Weather_App_Interface.jpeg"
+                  alt="image1"
+                  class="imgs"
+              /></span>
+              <span title="captions for images">Weather App Interface</span>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4th div tag for Contact  -->
+      <div class="contact" id="contact">
+        <h2><span class="heading"> CONTACT </span></h2>
+        <!-- inside div tags -->
+        <div class="contact_lr">
+          <!-- inside div tags -->
+          <div class="left_contact">
+            <section class="c_l">
+              <!-- Location -->
+
+              <div>
+                <img src="Media/map.png" alt="map" class="icon_contact" />
+              </div>
+              <div>
+                Tiruchirappalli,<br />
+                Tamil Nadu,<br />
+                621306
+              </div>
+            </section>
+            <section class="c_l">
+              <!-- Mail id -->
+              <div>
+                <img src="Media/gmail.png" alt="mail" class="icon_contact" />
+              </div>
+              <div>
+                <a href="mailto:anbuvicky2020@gmail.com" class="mail"
+                  >anbuvicky2020@gmail.com</a
+                >
+              </div>
+            </section>
+            <section class="c_l">
+              <!-- website -->
+              <div>
+                <img
+                  src="Media/web-link.png"
+                  alt="website"
+                  class="icon_contact"
+                />
+              </div>
+              <div>
+                <a href="" class="website"
+                  >vigneshsparky.github.io/vigneshwaran/</a
+                >
+              </div>
+            </section>
+          </div>
+          <div class="right_content">
+            <!-- Google Map Iframe Box start-->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10926598575!2d78.60662610746407!3d10.815833728239161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1714803455198!5m2!1sen!2sin"
+              width="500"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="iframe"
+            >
+            </iframe>
+            <!-- Google Map Iframe Box end-->
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main content end -->
+    <footer>
+      <hr />
+      <div>
+        <span
+          ><a
+            href="https://www.linkedin.com/in/vigneshwaran-a-133665272/"
+            target="_blank"
+            ><img
+              src="Media/linkedin.png"
+              alt="linkedin"
+              class="icon_footer"
+            /> </a
+        ></span>
+        <span
+          ><img src="Media/instagram.png" alt="instagram" class="icon_footer"
+        /></span>
+        <span>
+          <a href="https://github.com/vigneshsparky" target="_blank">
+            <img src="Media/github.png" alt="github" class="icon_footer"
+          /></a>
+        </span>
+      </div>
+      <h3>@ 2024 | Designed by Vigneshwaran A</h3>
+    </footer>
+    <script src="function.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script> -->
+
+    <script>
+      var typed = new Typed("#type", {
+        strings: ["Web", "Java", "React js", "C#"],
+        typeSpeed: 150,
+        backSpeed: 100,
+        loop: true, // Corrected typo here
+      });
+    </script>
+  </body>
+</html>
